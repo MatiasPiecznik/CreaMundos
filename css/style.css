@@ -22,20 +22,18 @@ header{
         color: whitesmoke; 
         text-decoration: solid;
     }
-nav ul{
-    
-    display: grid;
-    grid-template-columns: repeat(6, 6fr);
-    column-gap: 70px;
-    grid-template-rows: 100px;
-    justify-items: stretch;
-    align-content: stretch;
-    align-items: center;
-    justify-content: center;
- }
-    nav{
-       width: 70%;
-    }
+    nav ul{
+        display: flex;
+            margin-top: 3.5%;
+            justify-items: stretch;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: black;
+            column-gap: 80px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-around;
+     } 
     
  .redesSociales a{
         color: black;
@@ -106,8 +104,7 @@ font-style: italic;
     text-align: center;
     font-size: 15px;
 } 
-h1{
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+.text-center{
+    font-size: 40px;
+    margin-top: 150px;
+} 
