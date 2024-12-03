@@ -1,5 +1,36 @@
-$primary-color:#000;
-  
-header {
-    background-color: $primary-color;
+@import'variables';
+@import'header';
+@import'footer';
+
+.qh-cards{
+    margin: 0px;
+    padding: 0;
+    @include height(350px);
+    @include width(350px);
+    justify-content: space-evenly;
+}
+.qh-seccion img {
+    margin: 15px;
+    padding: 0;
+    @include width(350px);
+    @include height(350px);
+    justify-content: space-evenly;
+    }
+video{
+    margin: 15px;
+    padding: 0;
+    @include width(350px);
+    @include height(350px);
+    justify-content: space-evenly;
+    background-color: black;
+    background-color: black;
+}
+.p-qh {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+font-style: italic;
+}
+.p{
+    @extend .p-qh;
 }

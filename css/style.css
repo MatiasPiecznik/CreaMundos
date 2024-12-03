@@ -1,4 +1,4 @@
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,30 +10,30 @@ header{
     height: 200px;
 }
 
- ul li{
-        text-align: center;
-        font-size: 30px;
-        font-weight: 500;
-        list-style: none;
-    justify-content: space-evenly;
-    }
+ul li{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    list-style: none;
+justify-content: space-evenly;
+}
 
-    li>a{
-        color: whitesmoke; 
-        text-decoration: solid;
-    }
-    nav ul{
-        display: flex;
-            margin-top: 3.5%;
-            justify-items: stretch;
-            align-items: center;
-            justify-content: space-evenly;
-            background-color: black;
-            column-gap: 80px;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-content: space-around;
-     } 
+li>a{
+    color: whitesmoke; 
+    text-decoration: solid;
+}
+nav ul{
+    display: flex;
+        margin-top: 3.5%;
+        justify-items: stretch;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: black;
+        column-gap: 80px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+ } 
     
  .redesSociales a{
         color: black;
@@ -79,18 +79,12 @@ video{
     justify-content: space-evenly;
     background-color: black;
     }
-p {
-    text-align: center;
-    font-size: 40px;
-    padding: 20px;
-font-style: italic;
-}
-.p-qh{
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-font-style: italic;
-} 
+ .p-qh, .p {
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+        font-style: italic;
+      }
 
 .eslogan {
     text-align: center;
