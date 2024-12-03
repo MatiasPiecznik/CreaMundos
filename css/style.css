@@ -34,14 +34,13 @@ nav ul{
         flex-wrap: wrap;
         align-content: space-around;
  } 
-    
+.foto-crea-mundos{
+    text-align: center;
+}
  .redesSociales a{
         color: black;
         font-weight: 400;
     }
-.foto-crea-mundos {
-    text-align: center;
-}
 footer{
    margin-top: 5%;
    margin-left: 1%;
@@ -49,9 +48,8 @@ footer{
 .fondoFooter footer form button img {
     width: 20px;
 }
-footer .copy {
+footer .copy{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .footerForm{
     text-align: right;
