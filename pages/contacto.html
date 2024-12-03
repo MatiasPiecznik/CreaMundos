@@ -30,41 +30,40 @@
 
     <main class="mt-5">
       <div><h1 class="fw-bolder text-center">CONTACTO</h1></div>
-      <section class="foto-crea-mundos">
+      <section class="foto-crea-mundos text-center">
         <img src="../img/Foto Crea Mundos.png" class="text-center" class="img-fluid" alt="Poner foto">
          </section>
- <section class="formulario">
-<form action="/submit" method="post">
-<label for="nombre"><strong>NOMBRE:</strong></label>
-</div>
 
-<input type="text" name="nombre" id="nombre">
-
-<label for="apellido"><strong>APELLIDO:</strong></label>
-
-<input type="text" name="apellido" id="apellido">
-
-<label for="mail"><strong>INGRESE MAIL:</strong></label>
-
-<input type="text" name="mail" id="mail">
-
-<label for="telefono"><strong>TELEFONO:</strong></label>
-
-<input type="text" name="telefono" id="telefono">
-
-<label for="mensaje"><strong>MENSAJE:</strong></label>
-
-<textarea name="mensaje" id="mensaje"></textarea>
-
-</form>
+ <section>
+  <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre:</label>
+      <input type="nombre" class="form-control" id="nombre" aria-describedby="emailHelp">
+    </div>
+  
+    <div class="mb-3">
+      <label for="apellido" class="form-label">Apellido:</label>
+      <input type="apellido" class="form-control" id="apellido">
+    </div>
+  
+    <div class="mb-3">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="email">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+  
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Telefono:</label>
+        <input type="telefono" class="form-control" id="telefono">
+      </div>
+  
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje:</label>
+        <input type="mensaje" class="form-control" id="mensaje">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 </section>
-
-
-
-
-
-
-
     </main>
     <footer class="fondoFooter">
       <div class="redesSociales fs-3 text-decoration-none">
